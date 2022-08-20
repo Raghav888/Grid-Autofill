@@ -18,9 +18,11 @@ body {
   display: grid;
   grid-gap: 20px;
 
-  grid-template-columns: repeat(2, minmax(300px, 1fr));
+  /* grid-template-columns: repeat(auto-fit, 100px); */
+
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 .child:nth-child(3) {
-  /* background-color: hotpink; */
+  background-color: hotpink;
 }
